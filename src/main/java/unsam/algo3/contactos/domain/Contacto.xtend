@@ -1,8 +1,10 @@
 package unsam.algo3.contactos.domain
 
 import org.eclipse.xtend.lib.annotations.Accessors
+import org.uqbar.commons.model.annotations.Observable
 
 @Accessors
+@Observable
 class Contacto {
 	
 	String nombreApellido
